@@ -1,0 +1,26 @@
+= Linux Scripts
+
+These are just some helpful scripts that I thought might be useful for others to use with their own linux boxes.
+
+== mouse_toggle
+
+This script I use to toggle my touchpad on and off.  Its espcially useful when coding and you want to avoid a misclick from your hands resting on the touchpad while typing.
+
+To make this a keyboard shortcut in ubuntu, simply place the script somewhere on your hardrive (I have it in ~/scripts, but the location really doesn't matter.
+
+The go into the keyboard shortcuts and create a new keyboard shortcut.  Call it something like "mouse toggle" but then link to the file.
+
+A few notes:
+
+You may have to chmod the file to make it work
+
+  chmod u+x mouse_toggle
+
+I also found you can't use the '~' character when referenceing the directory, so you will have to call this script like this:
+
+  /home/<username>/scripts/mouse_toggle
+
+if you are putting this in the home directory.
+
+
+-Nick LaMuro
